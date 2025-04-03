@@ -1,9 +1,32 @@
 p{
-    color: rgb(48, 89, 125);
+    /* color: rgb(48, 89, 125);
     font-size: 30px;
     font-style: italic;
     text-decoration: underline;
     letter-spacing: 5px;
     word-spacing: 10px;
-    background-color: ivory;
+    background-color: ivory; */
+   
+}
+
+
+.Abcd{
+    /* font-size: large;
+    word-spacing: 2px;
+    color: red;
+    border-width: px;
+border-style: dashed;
+border-color: black; */
+border: 1px solid red;
+}
+#Callmeanything{
+    font-size: large;
+background-color: rgb(158, 158, 102);
+color: rgb(32, 98, 98);
+border-width: 2px;
+border-style: dashed;
+border-color: black;
+padding: 10px;
+margin: 20px;
+
 }
