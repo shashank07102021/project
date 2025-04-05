@@ -1,3 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
 p{
     /* color: rgb(48, 89, 125);
     font-size: 30px;
@@ -17,7 +24,7 @@ p{
     border-width: px;
 border-style: dashed;
 border-color: black; */
-border: 1px solid red;
+border: 1px solid rgb( 0, 0, 0);
 }
 #Callmeanything{
     font-size: large;
@@ -34,3 +41,26 @@ margin: 20px;
 border-radius: 200px;
 
 }
+#idonntknowyou{
+    background-color: bisque;
+}
+#mkyunaambatsu{
+    border-width:10 px;
+    border-style: dashed;
+    border-color: black;
+    
+    width: 300px;
+    height: 300px;
+    
+
+}
+#batanekamaannhi{
+    height: 500px ;
+    width: 100%;
+    border: 2px solid black;
+    background-image: url(./login\ page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
