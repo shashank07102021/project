@@ -10,7 +10,8 @@
     background-color: bisque;
     justify-content: center;
     gap: 10px;
-    align-items: center;
+    align-items: unsafe;
+
     
 }
 #Container div
