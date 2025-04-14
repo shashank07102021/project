@@ -74,4 +74,7 @@
     color: black;
     letter-spacing: 0.5px;
   }
-  
+  .header .nav-bar  a{
+    text-decoration: underline;
+
+  }
