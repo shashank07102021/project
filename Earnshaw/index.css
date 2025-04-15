@@ -21,7 +21,13 @@
     padding: 15px 40px;
     position: relative;
   }
-  
+  .announcement {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
 
   .logo {
     position: absolute;
@@ -74,7 +80,35 @@
     color: black;
     letter-spacing: 0.5px;
   }
-  .header .nav-bar  a{
+  /* .header .nav-bar  a{
     text-decoration: underline;
+  } */
+  #sliding{
+    width: 100%;
+    height:90vh;
+    
+  }
+#sliding div img{
+  width: 100%;
+  height:90h;
+}
+  
+  a{
+    position: relative;
+    text-decoration: none;
+  
+  }
+  a::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 0;
+    left: 0;
+    top: 24px;
+    transition: 0.3s;
+  }
+  a:hover::after{
+    width: 100%;
 
   }
