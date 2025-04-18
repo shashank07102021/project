@@ -11,7 +11,9 @@
   .header {
     background-color: white;
     border-bottom: 1px solid #ccc;
+    width: 100%;
     height: 120px;
+    position: fixed;
   }
   
 
@@ -28,6 +30,7 @@
     padding: 0.5rem;
     font-size: 0.9rem;
     color: #ACA96D;
+    position: relative;
   }
 
   .logo {
@@ -172,4 +175,13 @@
   .reviews span {
     color: #333;
     text-align: center;
+  }
+  #all{
+    padding-left: 50%;
+    width: 10%;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    border: #333;
+    border-radius: 2px
   }
