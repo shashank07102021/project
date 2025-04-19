@@ -134,6 +134,7 @@
  }
   .product-grid {
     display: flex;
+    flex-wrap: flex;
     padding-left: 100px;
     justify-content: space-between;
     padding-right: 100px;
@@ -141,14 +142,30 @@
     gap: 30px;
   }
   .product {
-    flex: 1 1 calc(25% - 30px);
     min-width: 200px;
     max-width: 250px;
+    overflow: hidden;
   }
-  .product img {
+  .product1 img {
+    position: relative;
+    overflow: hidden;
     width: 100%;
     border-radius: 8px;
-  }
+    transition: opacity linear 0.7s;
+}
+
+.product1 img.Hover-img {
+    opacity: 0; 
+}
+
+.product1:hover img {
+    opacity: 0; 
+}
+
+.product1:hover img.Hover-img {
+    opacity: 1; 
+    
+}
   .product-name {
     font-weight: bold;
     letter-spacing: 1px;
@@ -185,3 +202,63 @@
     border: #333;
     border-radius: 2px
   }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #f1f1f1;
+    padding: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 20%;
+    margin: 10px 0;
+}
+
+h4 {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #e6c85c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+.newsletter {
+    width: 25%;
+}
+
+input[type="email"] {
+    padding: 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #e6c85c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d4b250;
+}
+  
